@@ -1,12 +1,19 @@
 # Library-management-system
+
 import tkinter as tk
+
 from tkinter import messagebox
 
 class LibraryManagement:
+
     def __init__(self, master):
+
         self.master = master
+
         self.master.title("Library Management System")
+
         self.master.geometry("400x400")
+        
         self.master.config(bg='#708090')
 
         self.books = []
